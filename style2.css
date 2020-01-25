@@ -1,0 +1,14 @@
+h1 {
+    color: darkred;
+}
+.header{
+    background-color: crimson;
+    display:flex;
+    font-size: xx-large;
+}
+.footer{
+    background-color: darkslateblue;
+    display:flex;
+    font-size: xx-large;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,78 @@
+h1 {
+    color: #000000;
+}
+
+.header{
+    background-color: #900080;
+    display:flex;
+    justify-content:space-between ;
+    color: #ffffff;
+    font-style: bold;
+    font-family: sans-serif;
+
+    
+}
+.links{
+    font-family: sans-serif;
+    font-size: 1cm;
+    color: #ffffff;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-style: bold;
+    font-family: fantasy;
+    
+}
+.footer{
+background-color: #900080;
+display:flex;
+justify-content: space-evenly;
+
+
+}
+
+p,h2{
+    text-align: center;
+    color: #ffffff;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #000000;
+    background-size: 20cm;
+    background-image: Url("My Website Background.png");
+    background-size: 50cm;
+
+}
+a:link{
+    color: #ffffff;
+}
+a:visited{
+    color: #6c89ff;
+}
+
+.item{
+    position: relative;
+
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.5;
+}
